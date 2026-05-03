@@ -4,9 +4,9 @@
 
 # ywkuno
 
-I build local-first developer tools, AI coding workflows, and visual systems that make large codebases easier to inspect, map, and act on.
+I build local-first developer tools and AI coding workflows that make large codebases cheaper to understand, slice, and act on.
 
-My current focus is **code intelligence for AI agents**: deterministic repo maps, compact context slices, visual replay, and tools that help assistants spend fewer tokens reading noise.
+My current focus is **context saving for AI agents**: deterministic repo maps, compact context slices, token estimates, and optional visual replay for understanding what an agent touched.
 
 <p>
   <a href="https://github.com/ywkuno/cortext"><img alt="Cortext" src="https://img.shields.io/badge/project-Cortext-111827?style=for-the-badge"></a>
@@ -19,7 +19,7 @@ My current focus is **code intelligence for AI agents**: deterministic repo maps
 
 ### [Cortext](https://github.com/ywkuno/cortext)
 
-Local-first codebase maps, context slices, and visual replay for AI coding agents.
+Local-first context saving and token optimization for AI coding agents.
 
 ```bash
 contextopt map .
@@ -32,7 +32,7 @@ Cortext turns a repository into an inspectable graph before an assistant reads t
 ## Current Tracks
 
 - **Context engineering**: repo maps, query-first context, token estimates, focused slices
-- **Visual code intelligence**: graph viewers, activity replay, folder-aware layouts
+- **Visual code intelligence**: optional graph viewers, activity replay, folder-aware layouts
 - **Agent tooling**: local artifacts, deterministic parsing, safe activity streams
 - **Practical automation**: CLIs, GitHub Actions, Windows-friendly developer workflows
 
