@@ -1,0 +1,68 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">yw profile signal map</title>
+  <desc id="desc">A dark technical banner with connected folder, graph, slice, and replay nodes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0b1020"/>
+      <stop offset="0.52" stop-color="#101827"/>
+      <stop offset="1" stop-color="#07111f"/>
+    </linearGradient>
+    <linearGradient id="line" x1="220" y1="60" x2="1020" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6ee7b7"/>
+      <stop offset="0.48" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" stroke="#1f3148" stroke-width="1" opacity="0.48"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="360" rx="28" fill="url(#grid)" opacity="0.62"/>
+  <path d="M80 286 C238 122 318 249 448 160 C576 72 685 291 820 160 C926 58 1006 173 1200 68" stroke="#253a55" stroke-width="2"/>
+  <path d="M80 286 C238 122 318 249 448 160 C576 72 685 291 820 160 C926 58 1006 173 1200 68" stroke="url(#line)" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+
+  <g opacity="0.65" filter="url(#soft)">
+    <circle cx="448" cy="160" r="48" fill="#60a5fa"/>
+    <circle cx="820" cy="160" r="44" fill="#6ee7b7"/>
+    <circle cx="1008" cy="132" r="40" fill="#a78bfa"/>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="72" y="82" fill="#e5edf7" font-size="34" font-weight="700">ywkuno</text>
+    <text x="72" y="121" fill="#9fb1c7" font-size="17">local-first developer tools / AI coding workflows / visual code maps</text>
+
+    <g transform="translate(72 178)">
+      <rect width="342" height="78" rx="16" fill="#0d1524" stroke="#263852"/>
+      <text x="24" y="32" fill="#6ee7b7" font-size="15">contextopt map .</text>
+      <text x="24" y="56" fill="#dbe7f6" font-size="15">repo graph -> focused context</text>
+    </g>
+
+    <g transform="translate(468 104)">
+      <rect width="144" height="112" rx="22" fill="#101c2d" stroke="#45688f"/>
+      <path d="M40 44 H68 L78 54 H104 V84 H40 Z" fill="#60a5fa"/>
+      <text x="34" y="96" fill="#dbe7f6" font-size="13">map</text>
+    </g>
+
+    <g transform="translate(696 190)">
+      <rect width="164" height="94" rx="22" fill="#101c2d" stroke="#3d725f"/>
+      <circle cx="50" cy="47" r="11" fill="#6ee7b7"/>
+      <circle cx="86" cy="34" r="8" fill="#60a5fa"/>
+      <circle cx="113" cy="61" r="9" fill="#a78bfa"/>
+      <path d="M59 44 L78 37 M94 40 L106 55 M60 51 L104 62" stroke="#dbe7f6" stroke-width="2" opacity="0.72"/>
+      <text x="36" y="78" fill="#dbe7f6" font-size="13">slice</text>
+    </g>
+
+    <g transform="translate(946 80)">
+      <rect width="204" height="110" rx="22" fill="#101c2d" stroke="#5e4f8d"/>
+      <path d="M44 62 L82 36 L82 55 L122 55 L82 82 L82 64 L44 64 Z" fill="#a78bfa"/>
+      <text x="40" y="92" fill="#dbe7f6" font-size="13">replay</text>
+    </g>
+
+    <text x="72" y="315" fill="#758aa3" font-size="13">inspectable artifacts: markdown / json / sqlite / static html</text>
+    <text x="914" y="315" fill="#758aa3" font-size="13">map first. query next. read only what matters.</text>
+  </g>
+</svg>
