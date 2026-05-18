@@ -45,22 +45,6 @@ codeprism visualize
 
 CodePrism turns a repository into an inspectable graph before an assistant reads the whole tree. It exports Markdown, JSON, DOT, SQLite, and a static browser viewer so the context path stays visible instead of hidden inside a chat window.
 
-### [Open Design](https://github.com/ywkuno/open-design)
-
-Local-first design generation for agents: reusable skills, brand-grade design systems, sandboxed previews, and exportable prototypes.
-
-### [Modly](https://github.com/ywkuno/modly)
-
-Desktop local-AI tooling for generating 3D models from images on your own GPU.
-
-## Current Tracks
-
-- **Agent context engineering**: repo maps, query-first context, focused slices, token estimates
-- **Local-first design systems**: agent skills, preview sandboxes, HTML/PDF/PPTX/MP4 exports
-- **Desktop AI apps**: GPU-local experiments, companion shells, image-to-asset workflows
-- **Game and mod utilities**: Lua/C# tooling, Barotrauma mods, automation helpers
-- **Practical automation**: CLIs, GitHub Actions, Windows-friendly developer workflows
-
 ## Stack I Reach For
 
 ```text
@@ -81,8 +65,4 @@ React       Vue         Tailwind     Three.js
 ## Public Work
 
 - [CodePrism](https://github.com/kunolabs/codeprism) — codebase maps, context slices, and visual agent replay
-- [Open Design](https://github.com/ywkuno/open-design) — local-first design generation for AI agents
-- [Modly](https://github.com/ywkuno/modly) — local GPU image-to-3D desktop tooling
-- [OpenPets](https://github.com/ywkuno/openpets) — desktop pets for AI coding agent status
-- [Baro HUD Vitals](https://github.com/ywkuno/baro-hud-vitals) — Barotrauma crew and player health HUD mod
 
