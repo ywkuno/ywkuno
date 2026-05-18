@@ -1,4 +1,4 @@
-name: Profile Graphics
+name: Profile 3D Contributions
 
 on:
   push:
@@ -14,7 +14,7 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    name: generate-profile-graphics
+    name: generate-profile-3d-contrib
     steps:
       - uses: actions/checkout@v5
 
@@ -23,20 +23,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
-      - uses: vn7n24fzkq/github-profile-summary-cards@release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          USERNAME: ${{ github.repository_owner }}
-          BRANCH_NAME: main
-          UTC_OFFSET: 10
-          AUTO_PUSH: false
-
       - name: Commit & Push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -A .
-          if git commit -m "generated profile graphics"; then
+          if git commit -m "generated 3d contribution profile"; then
             git push
           fi

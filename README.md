@@ -1,23 +1,20 @@
-<p align="center">
-  <img src="./assets/cortext-signal.svg" alt="yw profile banner showing a local-first AI tooling signal map" width="100%" />
-</p>
-
 # ywkuno
 
-I build local-first developer tools and AI coding workflows that make large codebases cheaper to understand, slice, and act on.
+I build local-first AI developer tools, desktop experiments, design systems, and game/mod utilities.
 
-My current focus is **context saving for AI agents**: deterministic repo maps, compact context slices, token estimates, and optional visual replay for understanding what an agent touched.
+My current focus is **CodePrism**: deterministic codebase maps, focused context slices, token estimates, and visual replay so AI coding agents can inspect a repo before brute-reading it.
 
 <p>
-  <a href="https://github.com/ywkuno/cortext"><img alt="Cortext" src="https://img.shields.io/badge/project-Cortext-111827?style=for-the-badge"></a>
-  <img alt="Local first" src="https://img.shields.io/badge/local--first-tools-2563eb?style=for-the-badge">
+  <a href="https://github.com/kunolabs/codeprism"><img alt="CodePrism" src="https://img.shields.io/badge/project-CodePrism-111827?style=for-the-badge"></a>
+  <a href="https://github.com/ywkuno/open-design"><img alt="Open Design" src="https://img.shields.io/badge/project-Open%20Design-7c3aed?style=for-the-badge"></a>
+  <img alt="Local first" src="https://img.shields.io/badge/local--first-AI%20tools-2563eb?style=for-the-badge">
   <img alt="Python" src="https://img.shields.io/badge/Python-3.10%2B-3776ab?style=for-the-badge&logo=python&logoColor=white">
-  <img alt="SQLite" src="https://img.shields.io/badge/SQLite-graph%20state-044a64?style=for-the-badge&logo=sqlite&logoColor=white">
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-apps-3178c6?style=for-the-badge&logo=typescript&logoColor=white">
 </p>
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,ts,js,nodejs,html,css,svg,sqlite,git,github,githubactions,powershell,bash,vscode,docker,linux&perline=8" alt="Python, TypeScript, JavaScript, Node.js, HTML, CSS, SVG, SQLite, Git, GitHub, GitHub Actions, PowerShell, Bash, VS Code, Docker, and Linux" />
+    <img src="https://skillicons.dev/icons?i=py,ts,js,nodejs,react,nextjs,html,css,sqlite,git,github,githubactions,powershell,bash,docker,linux,java,cs,lua,vue,tailwind,threejs,tauri,cpp&perline=8" alt="Python, TypeScript, JavaScript, Node.js, React, Next.js, HTML, CSS, SQLite, Git, GitHub, GitHub Actions, PowerShell, Bash, Docker, Linux, Java, C#, Lua, Vue, Tailwind CSS, Three.js, Tauri, and C++" />
   </a>
 </p>
 
@@ -30,46 +27,47 @@ My current focus is **context saving for AI agents**: deterministic repo maps, c
 </p>
 
 <p align="center">
-  <img src="./profile-summary-card-output/github_dark/0-profile-details.svg" alt="GitHub profile summary" width="100%" />
-</p>
-
-<p align="center">
-  <img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Repositories per language" width="49%" />
-  <img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Most committed languages" width="49%" />
-</p>
-
-<p align="center">
-  <img src="./profile-summary-card-output/github_dark/3-stats.svg" alt="GitHub stats" width="49%" />
-  <img src="./profile-summary-card-output/github_dark/4-productive-time.svg" alt="Productive time" width="49%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ywkuno&theme=github_dark" alt="GitHub profile summary" width="100%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ywkuno&theme=github_dark" alt="GitHub stats" width="49%" />
 </p>
 
 ## Featured
 
-### [Cortext](https://github.com/ywkuno/cortext)
+### [CodePrism](https://github.com/kunolabs/codeprism)
 
 Local-first context saving and token optimization for AI coding agents.
 
 ```bash
-contextopt map .
-contextopt slice "what I am changing"
-contextopt visualize
+codeprism prime "what I am changing" --changed
+codeprism query "where does this behavior live?"
+codeprism visualize
 ```
 
-Cortext turns a repository into an inspectable graph before an assistant reads the whole tree. It exports Markdown, JSON, DOT, SQLite, and a static browser viewer so the context path stays visible instead of hidden inside a chat window.
+CodePrism turns a repository into an inspectable graph before an assistant reads the whole tree. It exports Markdown, JSON, DOT, SQLite, and a static browser viewer so the context path stays visible instead of hidden inside a chat window.
+
+### [Open Design](https://github.com/ywkuno/open-design)
+
+Local-first design generation for agents: reusable skills, brand-grade design systems, sandboxed previews, and exportable prototypes.
+
+### [Modly](https://github.com/ywkuno/modly)
+
+Desktop local-AI tooling for generating 3D models from images on your own GPU.
 
 ## Current Tracks
 
-- **Context engineering**: repo maps, query-first context, token estimates, focused slices
-- **Visual code intelligence**: optional graph viewers, activity replay, folder-aware layouts
-- **Agent tooling**: local artifacts, deterministic parsing, safe activity streams
+- **Agent context engineering**: repo maps, query-first context, focused slices, token estimates
+- **Local-first design systems**: agent skills, preview sandboxes, HTML/PDF/PPTX/MP4 exports
+- **Desktop AI apps**: GPU-local experiments, companion shells, image-to-asset workflows
+- **Game and mod utilities**: Lua/C# tooling, Barotrauma mods, automation helpers
 - **Practical automation**: CLIs, GitHub Actions, Windows-friendly developer workflows
 
 ## Stack I Reach For
 
 ```text
-Python      SQLite      GitHub Actions
-TypeScript  JavaScript  HTML/SVG
-PowerShell  Git         Local-first tooling
+Python      TypeScript  JavaScript  Node.js
+SQLite      GitHub Actions           PowerShell
+Java        C#          Lua          C++
+React       Vue         Tailwind     Three.js
 ```
 
 ## Operating Principles
@@ -82,5 +80,9 @@ PowerShell  Git         Local-first tooling
 
 ## Public Work
 
-- [Cortext](https://github.com/ywkuno/cortext) — codebase map, context pack, and visual agent replay
+- [CodePrism](https://github.com/kunolabs/codeprism) — codebase maps, context slices, and visual agent replay
+- [Open Design](https://github.com/ywkuno/open-design) — local-first design generation for AI agents
+- [Modly](https://github.com/ywkuno/modly) — local GPU image-to-3D desktop tooling
+- [OpenPets](https://github.com/ywkuno/openpets) — desktop pets for AI coding agent status
+- [Baro HUD Vitals](https://github.com/ywkuno/baro-hud-vitals) — Barotrauma crew and player health HUD mod
 
