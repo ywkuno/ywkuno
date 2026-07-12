@@ -86,11 +86,11 @@ codeprism visualize
 
 ## Operating Principles
 
-> Map first, then read.
-> Keep useful artifacts inspectable.
-> Prefer deterministic parsing before heavy magic.
-> Measure before making performance or token-saving claims.
-> Make public maintenance boring, transparent, and repeatable.
+> Map first, then read.<br>
+> Keep useful artifacts inspectable.<br>
+> Prefer deterministic parsing before heavy magic.<br>
+> Measure before making performance or token-saving claims.<br>
+> Make public maintenance boring, transparent, and repeatable.<br>
 > Build tools that stay useful when the network is off.
 
 ## Activity
